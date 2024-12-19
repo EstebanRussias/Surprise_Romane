@@ -3,6 +3,8 @@
 
 }
 .page{
+    width: 100vw;
+
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -23,11 +25,15 @@
 }
 
 #page2{
-    background-color: red;
+    background-image: url("page2.png");
+    background-size: cover;
+    background-position-x: center;
 }
 
 #page3{
-    background-color: blue;
+    background-image: url("page3.png");
+    background-size: cover;
+    background-position-x: center;
 }
 #page4{
     background-image: url("page4.png");
@@ -43,4 +49,6 @@
 #page6{
     background-image: url("cauteret.png");
     background-size: cover;
+    background-position-x: center;
+
 }
