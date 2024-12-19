@@ -32,10 +32,13 @@
 #page4{
     background-image: url("page4.png");
     background-size: cover;
+    background-position-x: center;
+
 }
 #page5{
     background-image: url("page5.png");
     background-size: cover;
+    background-position-x: center;
 }
 #page6{
     background-image: url("cauteret.png");
