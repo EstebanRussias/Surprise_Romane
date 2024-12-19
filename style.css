@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    scroll-behavior: smooth;
 
 }
 .page{
@@ -16,9 +17,13 @@
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
+    background-image: url("accueil.png");
+    background-size: cover;
+    background-position-x: center;
 }
 #accueil *{
     text-align: center;
+    
 }
 #page1{
     background-color: antiquewhite;
